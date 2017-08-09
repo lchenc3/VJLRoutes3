@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VJLRoutes3_Example' do
+  pod 'VJLRoutes3', :path => '../'
+
+  target 'VJLRoutes3_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
