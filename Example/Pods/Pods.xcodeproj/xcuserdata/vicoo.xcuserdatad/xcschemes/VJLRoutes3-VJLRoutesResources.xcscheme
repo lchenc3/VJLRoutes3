@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '28C93FB6403748401E9E7BBF13A8F8C8'
+               BlueprintIdentifier = '51A6A9D75DA056FCCE83413EE86BA251'
                BlueprintName = 'VJLRoutes3-VJLRoutesResources'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'VJLRoutesResources.bundle'>

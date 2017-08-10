@@ -19,6 +19,8 @@
     // Do any additional setup after loading the view.
     
     UIImageView *imageView = [[UIImageView alloc] init];
+    
+    UIImageView *imageView1 = [[UIImageView alloc] init];
     //imageView.image = [UIImage imageNamed:@"icon_login_logo"];
     
     //UIImageAsset *asset = [UIImageAsset A];
@@ -35,7 +37,6 @@
     NSLog(@"image path:%@", bundlePath2);
     NSLog(@"image path:%@", bundlePath3);
     //imageView.image = [UIImage imageWithContentsOfFile:[bundlePath stringByAppendingPathComponent:@"icon_login_logo"]];
-    imageView.image = [UIImage imageWithContentsOfFile: bundlePath3];
     
     //NSBundle *currentBundle = [NSBundle bundleWithPath:bundlePath];
     
@@ -46,6 +47,17 @@
     [self.view addSubview:imageView];
     imageView.frame = CGRectMake(100, 100, 100, 100);
     imageView.backgroundColor = [UIColor redColor];
+    
+    imageView.image = [UIImage imageWithContentsOfFile: bundlePath3];
+
+    
+    [self.view addSubview:imageView1];
+    imageView1.frame = CGRectMake(100, 300, 100, 100);
+    imageView1.backgroundColor = [UIColor redColor];
+    
+    NSString *imgPath3 = [[[NSBundle mainBundle] pathForResource:@"VJLRoutesResources" ofType:@"bundle"] stringByAppendingString:@"/icon_login_logo"];
+    imageView1.image = [UIImage imageNamed:imgPath3];
+
 }
 
 - (void)didReceiveMemoryWarning {

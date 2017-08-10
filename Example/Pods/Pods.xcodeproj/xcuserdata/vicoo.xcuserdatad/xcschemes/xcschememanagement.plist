@@ -4,17 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AFNetworking.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-VJLRoutes3_Example.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-VJLRoutes3_Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,27 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>28C93FB6403748401E9E7BBF13A8F8C8</key>
+		<key>51A6A9D75DA056FCCE83413EE86BA251</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>32CC66E474C93C71AF0472207F0CEBBB</key>
+		<key>C002542D76BCD78C431C716EBA113B8F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>78A3099E3121B2D28F7F9393571FB4F2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AEF92E4BBC7383A482D1D22A68B3AF7B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
+		<key>FAB654B3F2B8AB9D651941B883C7EA8A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

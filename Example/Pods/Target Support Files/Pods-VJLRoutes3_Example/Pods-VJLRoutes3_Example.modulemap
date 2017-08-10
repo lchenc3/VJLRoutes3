@@ -1,6 +1,0 @@
-framework module Pods_VJLRoutes3_Example {
-  umbrella header "Pods-VJLRoutes3_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

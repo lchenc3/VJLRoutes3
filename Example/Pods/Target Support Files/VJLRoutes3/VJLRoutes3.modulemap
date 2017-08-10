@@ -1,6 +1,0 @@
-framework module VJLRoutes3 {
-  umbrella header "VJLRoutes3-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,19 +1,19 @@
 {
   "name": "VJLRoutes3",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of VJLRoutes3.",
   "description": "An optional longer description of BZLib\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
-  "homepage": "https://github.com/lchence/VJLRoutes3",
+  "homepage": "https://github.com/lchenc3/VJLRoutes3",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "lchence": "chenlaifang@gmail.com"
+    "lchenc3": "chenlaifang@gmail.com"
   },
   "source": {
-    "git": "https://github.com/lchence/VJLRoutes3.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/lchenc3/VJLRoutes3.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -24,11 +24,5 @@
       "VJLRoutes3/Assets/*"
     ]
   },
-  "public_header_files": "VJLRoutes3/Classes/**/*.h",
-  "frameworks": "UIKit",
-  "dependencies": {
-    "AFNetworking": [
-      "~> 3.0"
-    ]
-  }
+  "public_header_files": "VJLRoutes3/Classes/*.h"
 }
